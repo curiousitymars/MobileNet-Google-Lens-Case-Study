@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>Mobile Net & Google Lens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+  <h3>Mobile Net vs. Google Lens</h3>
+  </center>
+  <hr>
+  <ol>
+    <div class="test_image_and_result col-xs-12">
+    <li class="col-sm-4 col-xs-12">
+        <b>Test Image - </b>
+        <img src="Recorder.png" class="img-responsive">
+        <img src="Clock.png" class="img-responsive">
+        <img src="Disco.png" class="img-responsive">
+        <img src="Trophy.png" class="img-responsive">
+        <img src="Fan.png" class="img-responsive">
+        <img src="Mask.jpg" class="img-responsive">
+        <img src="Pencil.jpg" class="img-responsive">
+        <img src="Tape.png" class="img-responsive">
+        <img src="Marker.png" class="img-responsive">
+        <img src="Book.png" class="img-responsive">
+    
+      </li>    
+    <h5 class="col-sm-4 col-xs-12 a">
+      Output on <b>Google Lens</b> - 
+      <span>Yamaha Soprano Recorder</span>
+  </h5>
+  <div class="mini_result" class="col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+      <span>Missile</span>
+    <hr>
+    <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Alarm Clock</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Wall Clock</span>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Spotlight</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Vaccum Cleaner</span>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Star Trophy</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Piano</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Paper Fan</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Quill Pen</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Medical Mask</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> -
+    <span>Backpack</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Wooden Pencil</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Banister</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Magic Scotch Tape</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Chain Mail</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>Expo Dry Erase Marker</span>
+</h5>
+<div class="mini_result" class="col-xs-12 a">
+  <h5 class="col-sm-4 col-xs-12 a">
+    Output on <b>MobileNet</b> - 
+    <span>Microphone</span>
+  </h5>
+  <hr>
+  <h4></h4>
+</div>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>Google Lens</b> - 
+  <span>The Simarillion</span>
+</h5>
+<h5 class="col-sm-4 col-xs-12 a">
+  Output on <b>MobileNet</b> - 
+  <span>Iron</span>
+</h5>
+<hr>
+<hr>
+<br>
+<center>
+<p class="btn btn-primary"> Google Lens is certainly superior while identifying objects in the first try, whereas MobileNet is unable to even after many trials.</p>
+</center>
+</br>
+</div>
+</div>
+    </div>
+    
+  </ol>
+  <div class="copy_right_footer">
+    Developed by - Curiousity
+    </div>
+</html>
